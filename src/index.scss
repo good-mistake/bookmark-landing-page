@@ -117,13 +117,15 @@ body {
           border-radius: 5px;
           font-size: $s14;
           font-weight: $font-weight-extra;
-
+          cursor: $cursor;
           &:hover {
             color: $color-background;
             background-color: $bg-white;
           }
         }
         .firefoxBtn {
+          cursor: $cursor;
+
           background-color: $color-background-light;
           border: 1px solid $color-background-light;
           font-size: $s14;
